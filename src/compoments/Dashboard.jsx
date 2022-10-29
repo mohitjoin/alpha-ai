@@ -76,7 +76,7 @@ const Dashboard=()=>{
                     {` Interact with Ella`}
                 </Item></Link>
 
-                <audio className='d-none' controls preload="auto"  ref={audioElem} allow="autoplay">
+                <audio className='hidden' controls preload="auto"  ref={audioElem} allow="autoplay">
                     <source src={Voices} controls></source> 
                     Your browser isn't invited for super fun audio time.
                 </audio>
